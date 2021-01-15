@@ -1,0 +1,49 @@
+// "Authentication": "Bearer username"
+
+
+
+// users
+// id, username, password
+// "pdm", "mfg"
+
+
+// roles
+// id, roleName
+
+
+// users_roles
+// user_id, role_id
+
+
+function anyInCommon(arr1, arr2) {
+  const s = new Set(arr1);
+  for (const el of arr2) {
+    if (s.has(el))
+      return true;
+  }
+
+  return false;
+}
+
+
+function authorizeRoles(...roles) {
+  return (req, res, next) => {
+    const userName = req.get('Authentication').slice('Bearer '.length+1);
+
+    UsersService.findByUsername(userName).then(
+      user => {
+        if (user && anyInCommon(user.roles, roles)) {
+          req.user = user;
+          next();
+        } else {
+          res.status(401).json({});
+        } 
+      });
+  };
+}
+
+
+
+app.get('/some/path', authorizeRoles('pdm', 'mfg'), (req, res) => {
+
+});

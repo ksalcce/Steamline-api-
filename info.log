@@ -1,0 +1,169 @@
+{"message":"StreamlineService.getParts is not a function","level":"error"}
+{"message":"isActive is not defined","level":"error"}
+{"message":"Unable to acquire a connection","level":"error"}
+{"message":"Unable to acquire a connection","level":"error"}
+{"message":"Unable to acquire a connection","level":"error"}
+{"message":"Unable to acquire a connection","level":"error"}
+{"message":"Unable to acquire a connection","level":"error"}
+{"message":"Unable to acquire a connection","level":"error"}
+{"message":"Unable to acquire a connection","level":"error"}
+{"message":"Unable to acquire a connection","level":"error"}
+{"message":"The operator \"undefined\" is not permitted","level":"error"}
+{"message":"The operator \"undefined\" is not permitted","level":"error"}
+{"message":"select \"id\", \"description\", \"stock\" from \"parts\" where \"isActive\" = $1 - column \"isActive\" does not exist","level":"error"}
+{"message":"select \"id\", \"description\", \"stock\" from \"parts\" where \"isActive\" = $1 - column \"isActive\" does not exist","level":"error"}
+{"message":"select \"id\", \"description\", \"stock\" from \"parts\" where \"isActive\" = $1 - column \"isActive\" does not exist","level":"error"}
+{"message":"select \"id\", \"description\", \"stock\" from \"parts\" where \"isActive\" = $1 - column \"isActive\" does not exist","level":"error"}
+{"message":"select \"id\", \"description\", \"stock\" from \"parts\" where \"isActive\" = $1 - column \"isActive\" does not exist","level":"error"}
+{"message":"select \"id\", \"description\", \"stock\" from \"assemblies\" where \"id\" = $1 - column \"stock\" does not exist","level":"error"}
+{"message":"select \"id\", \"description\" from \"assemblies\" where \"id\" = $1 and \"isactive\" = $2 - invalid input syntax for type integer: \"gh\"","level":"error"}
+{"message":"assemblyId is not defined","level":"error"}
+{"message":"assemblyId is not defined","level":"error"}
+{"message":"assemblyId is not defined","level":"error"}
+{"message":"knex.from(...).select(...).where(...).andwhere is not a function","level":"error"}
+{"message":"StreamlineService.getTestContents(...).then is not a function","level":"error"}
+{"message":"StreamlineService.getTestContents(...).then is not a function","level":"error"}
+{"message":"select a.description, jta.cycletime from jointestsassemblies jta join assemblies a on jta.assemblyid = a.id where jta.testid = 1 select m.name, jtm.utilizationtime from jointestsmachines jtm join machines m on jtm.machineid = m.id where jtm.testid = 1 - syntax error at or near \"select\"","level":"error"}
+{"message":"Cannot read property 'then' of undefined","level":"error"}
+{"message":"StreamlineService.getTestContents(...).then is not a function","level":"error"}
+{"message":"StreamlineService.getTestContents(...).then is not a function","level":"error"}
+{"message":"Cannot read property 'then' of undefined","level":"error"}
+{"message":"asm is not defined","level":"error"}
+{"message":"StreamlineService.getTestMachContents(...).then is not a function","level":"error"}
+{"message":"req is not defined","level":"error"}
+{"message":"StreamlineService.addPart is not a function","level":"error"}
+{"message":"insert into \"parts\" (\"complexity\", \"description\", \"machine\", \"stock\") values ($1, $2, $3, $4) returning * - null value in column \"isactive\" violates not-null constraint","level":"error"}
+{"message":"Part id 10 created.","level":"info"}
+{"message":"StreamlineService.addAssembly(...).then is not a function","level":"error"}
+{"message":"StreamlineService.addAssembly(...).then is not a function","level":"error"}
+{"message":"StreamlineService.addAssembly(...).then is not a function","level":"error"}
+{"message":"StreamlineService.addAssembly(...).then is not a function","level":"error"}
+{"message":"StreamlineService.addAssembly(...).then is not a function","level":"error"}
+{"message":"StreamlineService.addAssembly(...).then is not a function","level":"error"}
+{"message":"Assembly id 4 created.","level":"info"}
+{"message":"assemblyid is not defined","level":"error"}
+{"message":"Cannot read property 'id' of undefined","level":"error"}
+{"message":"undefined is not iterable (cannot read property Symbol(Symbol.iterator))","level":"error"}
+{"message":"undefined is not iterable (cannot read property Symbol(Symbol.iterator))","level":"error"}
+{"message":"undefined is not iterable (cannot read property Symbol(Symbol.iterator))","level":"error"}
+{"message":"Cannot read property 'id' of undefined","level":"error"}
+{"message":"asmContents is not defined","level":"error"}
+{"message":"contents.reduce(...).then is not a function","level":"error"}
+{"message":"Cannot read property 'asmContents' of undefined","level":"error"}
+{"message":"Assembly id undefined created.","level":"info"}
+{"message":"Assembly id undefined created.","level":"info"}
+{"message":"Assembly id undefined created.","level":"info"}
+{"message":"Assembly id undefined created.","level":"info"}
+{"message":"Assembly id undefined created.","level":"info"}
+{"message":"Assembly id 25 created.","level":"info"}
+{"message":"assemblies.map(...).then is not a function","level":"error"}
+{"message":"Promise resolver [object Array] is not a function","level":"error"}
+{"message":"Test id undefined created.","level":"info"}
+{"message":"Test id undefined created.","level":"info"}
+{"message":"Test id 19 created.","level":"info"}
+{"message":"Test id 20 created.","level":"info"}
+{"message":"Part id 9 created.","level":"info"}
+{"message":"Assembly id 5 created.","level":"info"}
+{"message":"Assembly id 6 created.","level":"info"}
+{"message":"Part id 10 created.","level":"info"}
+{"message":"Assembly id 7 created.","level":"info"}
+{"message":"Assembly id 8 created.","level":"info"}
+{"message":"Machine id 6 created.","level":"info"}
+{"message":"asmRes.json is not a function","level":"error"}
+{"message":"asmRes.json is not a function","level":"error"}
+{"message":"asmRes.json is not a function","level":"error"}
+{"message":"testAsm is not defined","level":"error"}
+{"message":"Test id 3 created.","level":"info"}
+{"message":"Test id 4 created.","level":"info"}
+{"message":"Test id 5 created.","level":"info"}
+{"message":"Test id 6 created.","level":"info"}
+{"message":"Test id 7 created.","level":"info"}
+{"message":"assemblies is not defined","level":"error"}
+{"message":"Test id 8 created.","level":"info"}
+{"message":"Test id 3 created.","level":"info"}
+{"message":"insert into \"jointestsassemblies\" (\"assemblyid\", \"cycletime\", \"testid\") values ($1, $2, $3), ($4, $5, $6) returning * - insert or update on table \"jointestsassemblies\" violates foreign key constraint \"jointestsassemblies_assemblyid_fkey\"","level":"error"}
+{"message":"Test id 4 created.","level":"info"}
+{"message":"insert into \"jointestsassemblies\" (\"assemblyid\", \"cycletime\", \"testid\") values ($1, $2, $3), ($4, $5, $6) returning * - insert or update on table \"jointestsassemblies\" violates foreign key constraint \"jointestsassemblies_assemblyid_fkey\"","level":"error"}
+{"message":"Test id 5 created.","level":"info"}
+{"message":"Test id 6 created.","level":"info"}
+{"message":"Test id 8 created.","level":"info"}
+{"message":"Test id 9 created.","level":"info"}
+{"message":"Assembly id 4 created.","level":"info"}
+{"message":"Assembly id 5 created.","level":"info"}
+{"message":"Test id 10 created.","level":"info"}
+{"message":"Test id 11 created.","level":"info"}
+{"message":"Assembly id 6 created.","level":"info"}
+{"message":"Assembly id 7 created.","level":"info"}
+{"message":"Assembly id 8 created.","level":"info"}
+{"message":"Assembly id 9 created.","level":"info"}
+{"message":"Assembly id 10 created.","level":"info"}
+{"message":"Assembly id 11 created.","level":"info"}
+{"message":"Assembly id 12 created.","level":"info"}
+{"message":"Assembly id 13 created.","level":"info"}
+{"message":"Assembly id 14 created.","level":"info"}
+{"message":"Assembly id 15 created.","level":"info"}
+{"message":"Assembly id 16 created.","level":"info"}
+{"message":"Assembly id 17 created.","level":"info"}
+{"message":"Assembly id 18 created.","level":"info"}
+{"message":"Assembly id 19 created.","level":"info"}
+{"message":"Assembly id 20 created.","level":"info"}
+{"message":"Assembly id 21 created.","level":"info"}
+{"message":"Assembly id 22 created.","level":"info"}
+{"message":"Assembly id 23 created.","level":"info"}
+{"message":"Assembly id 24 created.","level":"info"}
+{"message":"Assembly id 25 created.","level":"info"}
+{"message":"Assembly id 26 created.","level":"info"}
+{"message":"Assembly id 27 created.","level":"info"}
+{"message":"Assembly id 28 created.","level":"info"}
+{"message":"Assembly id 29 created.","level":"info"}
+{"message":"Assembly id 30 created.","level":"info"}
+{"message":"Assembly id 31 created.","level":"info"}
+{"message":"Assembly id 32 created.","level":"info"}
+{"message":"Assembly id 33 created.","level":"info"}
+{"message":"Assembly id 34 created.","level":"info"}
+{"message":"Assembly id 35 created.","level":"info"}
+{"message":"Assembly id 36 created.","level":"info"}
+{"message":"Assembly id 37 created.","level":"info"}
+{"message":"Machine id 6 created.","level":"info"}
+{"message":"Test id 12 created.","level":"info"}
+{"message":"Cannot read property 'from' of undefined","level":"error"}
+{"message":"Cannot read property 'from' of undefined","level":"error"}
+{"message":"select \"id\", \"description\", \"stock\", \"machine\", \"complexity\" from \"parts\" where \"isactive\" = $1 and \"id\" = $2 - invalid input syntax for type integer: \"nonsense\"","level":"error"}
+{"message":"select \"id\", \"description\", \"stock\", \"machine\", \"complexity\" from \"parts\" where \"isactive\" = $1 and \"id\" = $2 - invalid input syntax for type integer: \"nonsense\"","level":"error"}
+{"message":"select \"id\", \"description\", \"stock\", \"machine\", \"complexity\" from \"parts\" where \"isactive\" = $1 and \"id\" = $2 - invalid input syntax for type integer: \"nonsense\"","level":"error"}
+{"message":"select \"id\", \"description\", \"stock\", \"machine\", \"complexity\" from \"parts\" where \"isactive\" = $1 and \"id\" = $2 - invalid input syntax for type integer: \"nonsense\"","level":"error"}
+{"message":"select a.id, a.description, jta.cycletime from jointestsassemblies jta join assemblies a on jta.assemblyid = a.id where jta.testid = nope - column \"nope\" does not exist","level":"error"}
+{"message":"Part id 9 created.","level":"info"}
+{"message":"Part id 10 created.","level":"info"}
+{"message":"Part id 11 created.","level":"info"}
+{"message":"insert into \"machines\" (\"cellid\", \"isactive\", \"name\", \"type\") values (DEFAULT, $1, DEFAULT, DEFAULT) returning * - null value in column \"name\" violates not-null constraint","level":"error"}
+{"message":"insert into \"machines\" (\"cellid\", \"isactive\", \"name\", \"type\") values (DEFAULT, $1, DEFAULT, DEFAULT) returning * - null value in column \"name\" violates not-null constraint","level":"error"}
+{"message":"Assembly id 4 created.","level":"info"}
+{"message":"Machine id 8 created.","level":"info"}
+{"message":"Machine id 9 created.","level":"info"}
+{"message":"Machine id 1 created.","level":"info"}
+{"message":"Part id 1 created.","level":"info"}
+{"message":"Assembly id 1 created.","level":"info"}
+{"message":"Machine id 1 created.","level":"info"}
+{"message":"Part id 9 created.","level":"info"}
+{"message":"Assembly id 4 created.","level":"info"}
+{"message":"Machine id 6 created.","level":"info"}
+{"message":"Test id 3 created.","level":"info"}
+{"message":"Cannot read property 'rows' of undefined","level":"error"}
+{"message":"Part id 10 created.","level":"info"}
+{"message":"Assembly id 5 created.","level":"info"}
+{"message":"Machine id 7 created.","level":"info"}
+{"message":"Test id 4 created.","level":"info"}
+{"message":"Cannot read property 'rows' of undefined","level":"error"}
+{"message":"Part id 19 created.","level":"info"}
+{"message":"Assembly id 9 created.","level":"info"}
+{"message":"Machine id 13 created.","level":"info"}
+{"message":"Test id 7 created.","level":"info"}
+{"message":"Part id 9 created.","level":"info"}
+{"message":"Assembly id 4 created.","level":"info"}
+{"message":"Machine id 6 created.","level":"info"}
+{"message":"Test id 3 created.","level":"info"}
+{"message":"Part id 9 created.","level":"info"}
+{"message":"Assembly id 4 created.","level":"info"}
+{"message":"Machine id 6 created.","level":"info"}
+{"message":"Test id 3 created.","level":"info"}
