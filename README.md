@@ -2,7 +2,7 @@ Streamline
 
 Live link: https://streamline-dusky.vercel.app/
 
-Client repo: https://github.com/greynagle/streamline
+Client repo: https://github.com/ksalcce/Capstone-2
 
 Structure:
 ```.
